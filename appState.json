@@ -1,0 +1,87 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "1c73c013-d375-49be-a8e1-af539da3fc8f": {
+        "id": "1c73c013-d375-49be-a8e1-af539da3fc8f",
+        "parent": null,
+        "name": "smpletestgitfiless",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "4a0d0e2f-67d4-4738-8e82-faae28ff5d6c",
+          "c3c3bb24-0c57-441d-b01a-6ea54a1699ad"
+        ],
+        "isRemovable": false,
+        "filePath": "smpletestgitfiless"
+      },
+      "4a0d0e2f-67d4-4738-8e82-faae28ff5d6c": {
+        "id": "4a0d0e2f-67d4-4738-8e82-faae28ff5d6c",
+        "parent": "1c73c013-d375-49be-a8e1-af539da3fc8f",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "smpletestgitfiless/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "c3c3bb24-0c57-441d-b01a-6ea54a1699ad": {
+        "id": "c3c3bb24-0c57-441d-b01a-6ea54a1699ad",
+        "parent": "1c73c013-d375-49be-a8e1-af539da3fc8f",
+        "name": "json.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "smpletestgitfiless/json.json"
+      }
+    },
+    "rootNode": "1c73c013-d375-49be-a8e1-af539da3fc8f",
+    "openFiles": [
+      "4a0d0e2f-67d4-4738-8e82-faae28ff5d6c",
+      "c3c3bb24-0c57-441d-b01a-6ea54a1699ad"
+    ],
+    "currentFileId": "c3c3bb24-0c57-441d-b01a-6ea54a1699ad",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "smpletestgitfiless",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576751219090
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "smpletestgitfiless",
+      "url": "https://github.com/Indunil1992/smpletestgitfiless"
+    }
+  }
+}
